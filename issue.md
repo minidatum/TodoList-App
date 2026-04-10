@@ -13,14 +13,14 @@ Buat fungsionalitas aplikasi Todo list di dalam project Laravel 10 yang sudah ad
 - **Isolasi Pengguna**: Setiap pengguna hanya dapat mengakses tugas mereka masing-masing.
 
 ## Tugas
-- [ ] Ubah koneksi database `.env` menjadi `sqlite`.
-- [ ] Instal dependensi: `laravel/breeze`.
-- [ ] Jalankan `php artisan breeze:install vue` dan kompilasi *assets* dengan `npm run build`.
-- [ ] Buat file *database* SQLite.
-- [ ] Buat *migration*, *model*, dan *controller* untuk Todo.
-- [ ] Tambahkan relasi *One-to-Many* pada model `User`.
-- [ ] Tentukan *routing* yang dilindungi middleware `auth`.
-- [ ] Bangun komponen antarmuka (*UI*) menggunakan Vue.js dan Inertia.js.
+- [x] Ubah koneksi database `.env` menjadi `sqlite`.
+- [x] Instal dependensi: `laravel/breeze`.
+- [x] Jalankan `php artisan breeze:install vue` dan kompilasi *assets* dengan `npm run build`.
+- [x] Buat file *database* SQLite.
+- [x] Buat *migration*, *model*, dan *controller* untuk Todo.
+- [x] Tambahkan relasi *One-to-Many* pada model `User`.
+- [x] Tentukan *routing* yang dilindungi middleware `auth`.
+- [x] Bangun komponen antarmuka (*UI*) menggunakan Vue.js dan Inertia.js.
 - [ ] Lakukan *migration* ke database.
 
 ## Catatan Tambahan
